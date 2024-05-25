@@ -36,7 +36,7 @@ This project is a NestJS application that dynamically creates tables in a Postgr
    POSTGRES_USERNAME = "postgres"
    POSTGRES_PASSWORD = "hello@123"
    POSTGRES_DB = "bigohtech"
-  ```
+   ```
 
 ## Running the app
 
