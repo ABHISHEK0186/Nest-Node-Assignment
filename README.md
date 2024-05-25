@@ -32,10 +32,11 @@ This project is a NestJS application that dynamically creates tables in a Postgr
    ```
 
 2. Create a `.env` file at the root of your project and add postgres configurations to it:
+   ```bash
    POSTGRES_USERNAME = "postgres"
    POSTGRES_PASSWORD = "hello@123"
    POSTGRES_DB = "bigohtech"
-
+  ```
 
 ## Running the app
 
@@ -90,7 +91,7 @@ docker-compose up --build
 
 
 ## Project Structure 
-
+```bash
 src
 ├── form
 │   ├── form.controller.ts
@@ -98,7 +99,7 @@ src
 │   └── form.service.ts
 ├── main.ts
 └── app.module.ts
-
+```
 
 ## Stay in touch
 
